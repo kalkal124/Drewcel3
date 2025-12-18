@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fil">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VideoHub Save - Legal na Video Download at Collection</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>VideoHub Save</h1>
+  
+  <!-- Tampok 1: Hanapin ang Pampublikong Video (Creative Commons) -->
+  <div class="search-section">
+    <input type="text" id="videoSearch" placeholder="Hanapin ang pampublikong video...">
+    <button id="searchBtn">Hanapin</button>
+  </div>
+
+  <!-- Tampok 2: Ipakita ang Mga Nakitang Video -->
+  <div class="videos-container" id="videosContainer"></div>
+
+  <!-- Tampok 3: Upload Sariling Video -->
+  <div class="upload-section">
+    <h2>I-upload ang Iyong Sariling Video (Para sa Iyong Mga Kaibigan na I-download)</h2>
+    <input type="file" id="videoUpload" accept="video/*">
+    <button id="uploadBtn">I-upload</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
